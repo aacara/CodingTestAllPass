@@ -16,7 +16,6 @@ class 행렬의곱셈_김현지 {
                  element = 0;
                 for (int j = 0; j < y1; j++) {
                     element += arr1[i][j] * arr2[j][k];
-                    //stem.out.println("i: "+i+ " j: "+ j+ " k: "+ k);
                 }
                 answer[i][k] = element;
             }
