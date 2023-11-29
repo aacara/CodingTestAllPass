@@ -1,4 +1,4 @@
-package Week1.삼각 달팽이;
+package Week1.삼각달팽이;
 
 
 class 삼각달팽이_김현지 {
