@@ -1,4 +1,4 @@
-package week5.모의고사;
+package Week5.모의고사;
 
 import java.util.*;
 

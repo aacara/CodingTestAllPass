@@ -1,4 +1,4 @@
-package week5.수식최대화;
+package Week5.수식최대화;
 
 import java.util.*;
 
