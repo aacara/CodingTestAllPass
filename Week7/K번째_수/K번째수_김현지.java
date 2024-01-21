@@ -1,4 +1,4 @@
-package week7.K번째수;
+package Week7.K번째수;
 
 import java.util.*;
 
