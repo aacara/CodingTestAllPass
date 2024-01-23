@@ -1,4 +1,4 @@
-package Week8.가장 큰 수;
+package Week8.가장큰수;
 
 import java.util.*;
 
