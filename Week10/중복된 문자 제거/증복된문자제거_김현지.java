@@ -1,5 +1,3 @@
-package Week10.중복된문자제거;
-
 import java.util.*;
 
 class 증복된문자제거_김현지 {
