@@ -39,8 +39,7 @@ class 사칙연산_김현지 {
     private int calculate(int a, int b, String operator) {
         if (operator.equals("+")) {
             return a + b;
-        } else {
-            return a - b;
-        }
+        } 
+        return a - b;
     }
 }
