@@ -3,6 +3,7 @@ import java.util.*;
 class 사칙연산_김현지 {
     public int solution(String arr[]) {
         int n = arr.length / 2 + 1;
+        // maxDp, minDp: i에서 j까지의 숫자들로 계산할 수 있는 최댓값, 최솟값
         int[][] maxDp = new int[n][n];
         int[][] minDp = new int[n][n];
 
@@ -12,6 +13,7 @@ class 사칙연산_김현지 {
             minDp[i][i] = num;
         }
         
+        // 다양한 길이의 부분집합이 있으니까 다 고려
         for (int len = 2; len <= n; len++) {
             for (int start = 0; start <= n - len; start++) {
                 int end = start + len - 1;
